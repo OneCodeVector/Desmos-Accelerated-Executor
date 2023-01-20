@@ -1,3 +1,3 @@
 function test(){
-    alert(1)
+    console.log(1)
 }
