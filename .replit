@@ -1,5 +1,5 @@
 run = "vite"
-entrypoint = "index.html"
+entrypoint = "test/index.html"
 hidden = ["vite.config.js", ".config"]
 
 [nix]
