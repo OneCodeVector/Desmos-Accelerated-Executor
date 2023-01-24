@@ -1,0 +1,2 @@
+all dispatch events
+Calc.controller.dispatcher.register(console.log)
