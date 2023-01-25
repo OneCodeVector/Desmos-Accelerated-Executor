@@ -8,7 +8,7 @@ const Main_Object = new DAX_OBJECT(
 const Screen = new DAX_OBJECT(
     DAX_CHILD_OBJECT, {
         Element: DAX_DISPLAY_SCREEN,
-        Size: ["600px","400px"]
+        Size: ["75px","50px"] // 600x400 ratio
     }
 )
 
@@ -16,7 +16,8 @@ Main_Object.appendChild(Screen)
 
 const Graph = Main_Object.loadGraph(Screen)
 Graph.loadApi()
-Graph.addLatex("y=x")
+Graph.addLine("y=x")
+Graph.setLine({Line: 1, Latex: "y=x^2"})
 
 /////////////////////
 // Main Graph Code //

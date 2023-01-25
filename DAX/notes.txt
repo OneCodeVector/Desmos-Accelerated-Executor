@@ -1,2 +1,5 @@
 all dispatch events
 Calc.controller.dispatcher.register(console.log)
+
+install jquery
+npm install jquery
