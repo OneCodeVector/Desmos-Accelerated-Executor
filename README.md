@@ -10,7 +10,7 @@ For more info, chatting, help/support, and early insight to development, Visit t
 
 **Notes**
 - Docs will be worked on a lot before **v0.1.4**
-- **v0.1.4** Expected Release Date: **Feb 3-7, 2023**
+- **v0.1.4** Expected Release Date: **Feb 7-14, 2023**
 
 ## *Pre-Release:* **v0.1.2**
 - Support for JQuery
