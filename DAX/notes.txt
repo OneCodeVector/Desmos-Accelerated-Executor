@@ -3,3 +3,15 @@ Calc.controller.dispatcher.register(console.log)
 
 install jquery
 npm install jquery
+
+dispatch types
+
+{type: 'set-item-latex', id: '2', latex: 'y=x'}
+
+elements:
+<div id="DAX_MAIN_ELEMENT">
+            <div id="DAX_DISPLAY_SCREEN"></div>
+            <div id="DAX_PROGRAM_DATA"></div>
+            <div id="DAX_ERROR_LOG"></div>
+            <table id="DAX_CONSOLE_LOG"></table>
+        </div>

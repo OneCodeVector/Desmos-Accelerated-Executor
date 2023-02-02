@@ -1,7 +1,0 @@
-const DAX_MAIN_ELEMENT   = "DAX_MAIN_ELEMENT"; // Parent
-const DAX_DISPLAY_SCREEN = "DAX_DISPLAY_SCREEN"; // Child
-const DAX_PROGRAM_DATA   = "DAX_PROGRAM_DATA"; // Child
-const DAX_ERROR_LOG      = "DAX_ERROR_LOG"; // Child
-const DAX_CONSOLE_LOG    = "DAX_CONSOLE_LOG"; // Child
-const DAX_PARENT_OBJECT  = "DAX_PARENT_OBJECT"; // Type
-const DAX_CHILD_OBJECT   = "DAX_CHILD_OBJECT"; // Type

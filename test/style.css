@@ -1,9 +1,15 @@
 html, body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-dax{
-    width: 600px;
-    height: 400px;
+#DAX_MAIN_ELEMENT{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#DAX_DISPLAY_SCREEN{
+    width: 75%;
+    height: 75%;
 }
