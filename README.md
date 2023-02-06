@@ -18,6 +18,6 @@ For more info, chatting, help/support, and early insight to development, Visit t
 - Every file that begins with `z_` is a seperate part of the module.
 
 ## *Pre-Release:* **v0.1.1**
-- Revized MarkDown file.
+- Revised Markdown file.
 - Support for ticker.
 - `tests/script.js` shows examples of every feature.
