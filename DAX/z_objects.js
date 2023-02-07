@@ -48,4 +48,13 @@ class DAX_OBJECT{
             return this.Scientific;
         }
     }
+
+    loadFourFunction(Screen) {
+        if(this.Settings.Is_Parent) {
+            this.Settings.Children.push(Screen);
+            Screen.Settings.Parent = this;
+            this.FourFunction = new DAX_FOUR_FUNCTION_OBJECT(Screen.data, Screen.Settings);
+            return this.FourFunction;
+        }
+    }
 }

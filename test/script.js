@@ -10,7 +10,8 @@ const Screen = new DAX_OBJECT(
     }
 )
 
-const ScientificCalc = Main_Object.loadScientific(Screen);
+// const ScientificCalc = Main_Object.loadScientific(Screen);
+const FourFunction = Main_Object.loadFourFunction(Screen);
 
 function Tick(){
     console.log("Graph Ticked!")
@@ -24,4 +25,10 @@ function s_gameLoop(){
     ScientificCalc.onTick(Tick()) // must be inside game loop or will only execute once
 }
 
-ScientificCalc.startExecution(s_gameLoop());
+function ff_gameLoop(){
+    FourFunction.onTick(Tick()) // must be inside game loop or will only execute once
+}
+
+FourFunction.startExecution(ff_gameLoop());
+
+// ScientificCalc.startExecution(s_gameLoop());
