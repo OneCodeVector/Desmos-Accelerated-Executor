@@ -10,13 +10,8 @@ const Screen = new DAX_OBJECT(
     }
 )
 
-const Graph = Main_Object.loadGraph(Screen)
-Graph.addLine("y=x")
-Graph.setLine({Line: 1, Latex: "y=x^2"})
-
-/////////////////////
-// Main Graph Code //
-/////////////////////
+// const ScientificCalc = Main_Object.loadScientific(Screen);
+const FourFunction = Main_Object.loadFourFunction(Screen);
 
 function Tick(){
     console.log("Graph Ticked!")
@@ -26,4 +21,14 @@ function gameLoop(){
     Graph.onTick(Tick()) // must be inside game loop or will only execute once
 }
 
-Graph.startExecution(gameLoop)
+function s_gameLoop(){
+    ScientificCalc.onTick(Tick()) // must be inside game loop or will only execute once
+}
+
+function ff_gameLoop(){
+    FourFunction.onTick(Tick()) // must be inside game loop or will only execute once
+}
+
+FourFunction.startExecution(ff_gameLoop());
+
+// ScientificCalc.startExecution(s_gameLoop());
