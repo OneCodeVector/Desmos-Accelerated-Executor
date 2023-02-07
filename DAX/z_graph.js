@@ -39,7 +39,7 @@ class DAX_GRAPH_OBJECT{
 
     onTick(Code){
         this.Api.controller.dispatcher.register(Event => {
-            if (Event.type == 'tick-ticker'){
+            if (Event.type === 'tick-ticker'){
                 Code;
             }
         }) 
