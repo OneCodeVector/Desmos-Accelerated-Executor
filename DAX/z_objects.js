@@ -39,4 +39,13 @@ class DAX_OBJECT{
             return this.Graph;
         }
     }
+
+    loadScientific(Screen) {
+        if (this.Settings.Is_Parent){
+            this.Settings.Children.push(Screen);
+            Screen.Settings.Parent = this;
+            this.Scientific = new DAX_SCIENTIFIC_OBJECT(Screen.Data, Screen.Settings);
+            return this.Scientific;
+        }
+    }
 }

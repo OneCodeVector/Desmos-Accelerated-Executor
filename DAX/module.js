@@ -9,6 +9,7 @@ const DAX_CHILD_OBJECT   = "DAX_CHILD_OBJECT"; // Type
 $('head').append('<script type="text/javascript" src="DAX/z_graph.js"></script>');
 $('head').append('<script type="text/javascript" src="DAX/z_console.js"></script>');
 $('head').append('<script type="text/javascript" src="DAX/z_objects.js"></script>');
+$('head').append('<script type="text/javascript" src="DAX/z_scientific.js"></script>');
 
 $(document).ready(function(){
     $('body').append($('<div/>', {id: 'DAX_MAIN_ELEMENT' }));
