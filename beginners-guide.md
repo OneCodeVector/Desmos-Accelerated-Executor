@@ -8,6 +8,8 @@ DAX is a wrapper for the API that makes it cleaner, faster and easier to use.
 ## Getting Started
 Getting Started with DAX is simple. Add a few things to your html header, type a few lines of code, and BAM! You got Desmos!
 
+**Put these in the header of your starting html file**
+
 * Replace with the path to your javascript file where you're gonna write code
 ```json
 <script> var MAIN_JS_FILE = 'test/script.js'</script>
